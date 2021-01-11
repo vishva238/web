@@ -1,0 +1,74 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/img.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container{
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(247,57,131,0.7);
+	width: 600px;
+	color: white;
+	padding: 15px;
+}
+
+h1{
+	font-size: 80px;
+	font-family: 'Redressed', cursive;
+	background: rgba(255,200,211,0.7);
+	border-radius: 5px;
+	color: #FF0262;
+	opacity: 1;
+	text-align: center;
+}
+
+h2{
+	color: #A81329;
+	background: rgba(255,200,211,0.7);
+	padding: 5px;
+	border-radius: 15px;
+	font-family: 'Redressed', cursive;
+	opacity: 1;
+	text-align: center;
+}
+a{
+	color: #FFC8D3;
+	opacity: 1;
+	text-decoration: none;
+	font-family: 'Redressed', cursive;
+}
+p{
+	color: #A81329;
+	background: rgba(255,200,211,0.7);
+	opacity: 1;
+	text-align: center;
+}
+h3{
+	color: #A81329;
+	text-align: center;
+}
+iframe{
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
